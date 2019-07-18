@@ -1,0 +1,211 @@
+{
+    "acquisition_software": "pychron py3/18.2",
+    "aliquot": 8,
+    "analysis_type": "unknown",
+    "analyst_name": "root",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "collection_version": "1.0:2.0",
+    "comment": "A:2 single xstal",
+    "commit": "82692dbe4f11bb0ab0d00e2b7093eb718fe6613f",
+    "conditionals": [
+        {
+            "analysis_types": [],
+            "frequency": 5,
+            "hash_id": -6235305068195884222,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "H1.bs<-5.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 5,
+            "hash_id": 5875118393791129787,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 75,
+            "teststr": "Ar36.bs_corrected<-0.05"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 3,
+            "hash_id": 2593313194638713130,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "Ar40.bs_corrected>5000.0"
+        }
+    ],
+    "data_reduction_software": "pychron py3/18.2",
+    "detectors": {
+        "AX": {
+            "deflection": 190.0,
+            "gain": 0.09717
+        },
+        "CDD": {
+            "deflection": 50.0,
+            "gain": 0.0
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0.1
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 0.01
+        },
+        "L1": {
+            "deflection": 400.0,
+            "gain": 0.010519
+        },
+        "L2": {
+            "deflection": 825.0,
+            "gain": 0.09392
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2019-07-17T23:38:34",
+                "title": "iServer Hum.",
+                "value": 43.0
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2019-07-17T20:02:22",
+                "title": "Building",
+                "value": 99.9
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2019-07-17T23:22:49",
+                "title": "Lab",
+                "value": 87.8
+            },
+            {
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2019-07-17T23:07:32",
+                "title": "Jan Decabin",
+                "value": 5.4
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger",
+                "name": "ColdFinger Temp.",
+                "pub_date": "2019-07-17T18:46:43",
+                "title": "Cold Finger",
+                "value": -197.0
+            },
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2019-07-17T22:04:03",
+                "title": "iServer Temp.",
+                "value": 74.3
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2019-07-17T23:37:40",
+                "title": "Coolant",
+                "value": 16.0
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2019-07-17T23:32:39",
+                "title": null,
+                "value": 35.6923076923077
+            }
+        ]
+    },
+    "experiment_queue_name": "CurrentExperiment",
+    "experiment_type": "Ar/Ar",
+    "extraction": "jan_co2.py",
+    "grainsize": "",
+    "identifier": "66959",
+    "increment": 1,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-305",
+    "irradiation_level": "A",
+    "irradiation_position": 6,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "cdd"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "thermo13"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "b21"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "thermo13"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "thermo13"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41",
+            "serial_id": "b42"
+        }
+    },
+    "laboratory": "",
+    "latitude": 0.0,
+    "lithology": null,
+    "lithology_class": null,
+    "lithology_group": null,
+    "lithology_type": null,
+    "longitude": 0.0,
+    "mass_spectrometer": "Jan",
+    "material": "Sanidine",
+    "measurement": "jan_unknown120_60_no_center.py",
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "Zimmerer, M",
+    "project": "CerroToledo",
+    "queue_conditionals_name": "",
+    "repository_identifier": "CerroToledo",
+    "rlocation": "",
+    "sample": "RCC-E",
+    "source": {
+        "emission": 533.072,
+        "trap": 198.371
+    },
+    "spec_sha": "88635f5b1e07c57a36667171ce4ee8571e93a48f",
+    "timestamp": "2019-07-17T23:50:07.055076",
+    "tripped_conditional": null,
+    "unit": null,
+    "username": "root",
+    "uuid": "83083a40-44af-4c69-bfb1-f47ee61583e2",
+    "whiff_result": null
+}
